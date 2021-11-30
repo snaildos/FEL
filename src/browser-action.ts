@@ -230,7 +230,9 @@ export const injectBrowserAction = () => {
       }
     }
 
-    customElements.define('browser-action', BrowserActionElement, { extends: 'button' })
+    !customElements.get('browser-action') && customElements.define('browser-action', BrowserActionElement, {
+      extends: 'button',
+    })
 
     class BrowserActionListElement extends HTMLElement {
       private observing: boolean = false
@@ -384,7 +386,7 @@ export const injectBrowserAction = () => {
       }
     }
 
-    customElements.define('browser-action-list', BrowserActionListElement)
+    !customElements.get('browser-action-list') && customElements.define('browser-action-list', BrowserActionListElement)
   }
 
   try {
