@@ -8,7 +8,6 @@
     "pretest": "esbuild spec/fixtures/crx-test-preload.ts --bundle --external:electron --outfile=spec/fixtures/crx-test-preload.js --platform=node",
     "test": "node ./script/spec-runner.js",
     "prepare": "npm run build",
-    "install": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -43,8 +42,7 @@
     "typescript": "^4.0.2",
     "uuid": "^8.3.1",
     "walkdir": "^0.4.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^4.44.1"
   },
   "peerDependencies": {},
   "babel": {
@@ -68,5 +66,8 @@
       ],
       "@babel/plugin-proposal-optional-chaining"
     ]
+  },
+  "volta": {
+    "node": "14.15.3"
   }
 }
