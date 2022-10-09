@@ -1,6 +1,2 @@
-extensions/*
-!extensions/.gitkeep
-!extensions/README.md
-
-disabled/
+*.map
 node_modules
