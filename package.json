@@ -1,6 +1,6 @@
 {
-  "name": "electron-chrome-extensions",
-  "version": "3.9.0",
+  "name": "@snaildos/fel",
+  "version": "3.0.0",
   "description": "Chrome extension support for Electron",
   "main": "dist/index.js",
   "files": [
@@ -18,9 +18,6 @@
     "chrome",
     "extensions"
   ],
-  "repository": "https://github.com/samuelmaddock/electron-browser-shell",
-  "author": "Samuel Maddock <sam@samuelmaddock.com>",
-  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "debug": "^4.3.1"
   },
