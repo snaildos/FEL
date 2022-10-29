@@ -189,8 +189,8 @@ export class PopupView {
     const viewBounds = this.browserWindow.getBounds()
 
     // TODO: support more orientations than just top-right
-    let x = winBounds.x + this.anchorRect.x + PopupView.POSITION_PADDING + this.anchorRect.width;
-    let y = winBounds.y + this.anchorRect.y + PopupView.POSITION_PADDING - viewBounds.height;
+    let x = winBounds.x + this.anchorRect.x + this.anchorRect.width - viewBounds.width
+    let y = winBounds.y + this.anchorRect.y + this.anchorRect.height + PopupView.POSITION_PADDING
 
     // Convert to ints
     x = Math.floor(x)

@@ -1,3 +1,8 @@
+# FEL v3
+SnailDOS Note:
+This is a fork of the electron browser shell npm package, that is up-to-date with the latest version of the Fifo Browser offering better and smoother support specifgically for Fifo.
+All infomation below are synced with the original repository.
+
 # electron-chrome-extensions
 
 > Chrome extension API support for Electron.
@@ -5,18 +10,6 @@
 Electron provides [basic support for Chrome extensions](https://www.electronjs.org/docs/api/extensions)  out of the box. However, it only supports a subset of APIs with a focus on DevTools. Concepts like tabs, popups, and extension actions aren't known to Electron.
 
 This library aims to bring extension support in Electron up to the level you'd come to expect from a browser like Google Chrome. API behavior is customizable so you can define how to handle things like tab or window creation specific to your application's needs.
-
-## Install
-
-```
-npm install electron-chrome-extensions
-```
-
-## Screenshots
-
-| uBlock Origin | Dark Reader |
-|---|---|
-| <img src="https://raw.githubusercontent.com/samuelmaddock/electron-browser-shell/master/packages/electron-chrome-extensions/screenshot-ublock-origin.png" width="405"> | <img src="https://raw.githubusercontent.com/samuelmaddock/electron-browser-shell/master/packages/electron-chrome-extensions/screenshot-dark-reader.png" width="391"> |
 
 ## Usage
 
