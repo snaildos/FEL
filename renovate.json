@@ -1,9 +1,0 @@
-{
-    "extends": [
-      "config:base"
-    ],
-    "automergeType": "pr",
-    "dependencyDashboard": "true",
-    "dependencyDashboardApproval": "true",
-    "dependencyDashboardAutoclose": "true"
-  }
